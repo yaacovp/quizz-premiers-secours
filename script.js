@@ -119,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 b: "Placer la personne près d'un radiateur",
                 c: "Faire courir la personne pour se réchauffer"
             },
+            correctAnswer: "b"
         },
         {
             question: "Que faire si vous êtes témoin d'une crise d'épilepsie ?",
