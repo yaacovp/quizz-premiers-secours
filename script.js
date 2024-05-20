@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             answers: {
                 a: "112",
                 b: "911",
-                c: "999"
+                c: "101"
             },
             correctAnswer: "a"
         },
@@ -111,6 +111,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 c: " Essayer de remettre l'os en place"
             },
             correctAnswer: "a"
+        },
+        {
+            question: "Que faut-il faire en cas d'hypothermie légère ?",
+            answers: {
+                a: "Donner des boissons chaudes et sucrées",
+                b: "Placer la personne près d'un radiateur",
+                c: "Faire courir la personne pour se réchauffer"
+            },
         },
         {
             question: "Que faire si vous êtes témoin d'une crise d'épilepsie ?",
@@ -212,11 +220,11 @@ document.addEventListener("DOMContentLoaded", function () {
             correctAnswer: "b"
         },
         {
-            question: "Comment traiter une plaie ouverte ?",
+            question: "Que faut-il faire en cas de luxation (déboîtement) d'une articulation ?",
             answers: {
-                a: "Appliquer de l'alcool",
-                b: "Nettoyer avec de l'eau et du savon",
-                c: "Appliquer une pommade"
+                a: "Immobiliser l'articulation dans la position trouvée et consulter un médecin",
+                b: "Remettre l'articulation en place soi-même",
+                c: "Appliquer de la chaleur sur l'articulation"
             },
             correctAnswer: "b"
         },
@@ -257,13 +265,13 @@ document.addEventListener("DOMContentLoaded", function () {
             correctAnswer: "b"
         },
         {
-            question: "Que faire en cas d'évanouissement ?",
+            question: "Que faut-il faire en cas de coupure profonde ?",
             answers: {
-                a: "Secouer la personne",
-                b: "Allonger la personne et surélever ses jambes",
-                c: "Donner à boire"
+                a: "Appliquer de la glace directement sur la plaie",
+                b: "Laver la plaie à l'eau et au savon, puis appliquer un pansement",
+                c: "Appliquer une pression directe sur la plaie pour arrêter le saignement"
             },
-            correctAnswer: "b"
+            correctAnswer: "c"
         },
         {
             question: "Que faut-il faire si une personne a une hémorragie nasale (saignement de nez) ?",
