@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
             question: "Que faire si une personne est en train de s'étouffer et ne peut pas parler ?",
             answers: {
                 a: "Donner des tapes dans le dos",
-                b: "Pratiquer la manœuvre de Heimlich",
+                b: "Pratiquer les compressions thoracique",
                 c: "Donner de l'eau à boire"
             },
             correctAnswer: "a"
@@ -104,11 +104,11 @@ document.addEventListener("DOMContentLoaded", function () {
             correctAnswer: "b"
         },
         {
-            question: "Quel est le meilleur moyen de vérifier la respiration d'une personne inconsciente ?",
+            question: "Que faut-il faire si une personne a une hémorragie nasale (saignement de nez) ?",
             answers: {
-                a: "Écouter la respiration",
-                b: "Mettre un doigt sous son nez",
-                c: "Observer si la poitrine se soulève"
+                a: "Pencher la tête en arrière",
+                b: " Allonger la personne sur le dos",
+                c: "Pencher la tête en avant et pincer les narines"
             },
             correctAnswer: "c"
         },
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
             question: "Que faire en cas d'évanouissement ?",
             answers: {
                 a: "Secouer la personne",
-                b: "Allonger la personne et surélever ses jambes",
+                b: "Allonger la personne et verifier son etat de conscience",
                 c: "Donner à boire"
             },
             correctAnswer: "b"
@@ -273,11 +273,13 @@ document.addEventListener("DOMContentLoaded", function () {
         return shuffled.slice(0, num);
     }
 
+    let selectedQuestions = [];
+
     function buildQuiz() {
         const output = [];
 
         // Get 10 random questions
-        const selectedQuestions = getRandomQuestions(myQuestions, 10);
+        selectedQuestions = getRandomQuestions(myQuestions, 10);
 
         selectedQuestions.forEach((currentQuestion, questionNumber) => {
             const answers = [];
@@ -308,8 +310,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const answerContainers = quizContainer.querySelectorAll(".answers");
 
         let numCorrect = 0;
-
-        const selectedQuestions = getRandomQuestions(myQuestions, 10);
 
         selectedQuestions.forEach((currentQuestion, questionNumber) => {
             const answerContainer = answerContainers[questionNumber];
