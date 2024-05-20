@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
             correctAnswer: "b"
         },
         {
-            question: "Quelle est la fréquence de compression thoracique recommandée pour un adulte lors d'un massage cardiaque' ?",
+            question: "Quelle est la fréquence de compression thoracique recommandée pour un adulte lors d'un massage cardiaque ?",
             answers: {
                 a: "60 compressions par minute",
                 b: "100-120 compressions par minute",
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
             question: "Que faire si une personne est en train de s'étouffer et ne peut pas parler ?",
             answers: {
                 a: "Donner des tapes dans le dos",
-                b: "Pratiquer les compressions thoracique",
+                b: "Pratiquer la manœuvre de Heimlich",
                 c: "Donner de l'eau à boire"
             },
             correctAnswer: "a"
@@ -104,11 +104,11 @@ document.addEventListener("DOMContentLoaded", function () {
             correctAnswer: "b"
         },
         {
-            question: "Que faut-il faire si une personne a une hémorragie nasale (saignement de nez) ?",
+            question: "Quel est le meilleur moyen de vérifier la respiration d'une personne inconsciente ?",
             answers: {
-                a: "Pencher la tête en arrière",
-                b: " Allonger la personne sur le dos",
-                c: "Pencher la tête en avant et pincer les narines"
+                a: "Écouter la respiration",
+                b: "Mettre un doigt sous son nez",
+                c: "Observer si la poitrine se soulève"
             },
             correctAnswer: "c"
         },
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
             answers: {
                 a: "Immobiliser la personne",
                 b: "Mettre quelque chose dans sa bouche",
-                c: "Protéger la personne des objet qui l'entoure"
+                c: "Protéger la personne des objets qui l'entourent"
             },
             correctAnswer: "c"
         },
@@ -260,8 +260,17 @@ document.addEventListener("DOMContentLoaded", function () {
             question: "Que faire en cas d'évanouissement ?",
             answers: {
                 a: "Secouer la personne",
-                b: "Allonger la personne et verifier son etat de conscience",
+                b: "Allonger la personne et surélever ses jambes",
                 c: "Donner à boire"
+            },
+            correctAnswer: "b"
+        },
+        {
+            question: "Que faut-il faire si une personne a une hémorragie nasale (saignement de nez) ?",
+            answers: {
+                a: "Pencher la tête en arrière",
+                b: "Pencher la tête en avant et pincer les narines",
+                c: "Allonger la personne sur le dos"
             },
             correctAnswer: "b"
         }
