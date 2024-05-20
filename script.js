@@ -104,13 +104,13 @@ document.addEventListener("DOMContentLoaded", function () {
             correctAnswer: "b"
         },
         {
-            question: "Quel est le meilleur moyen de vérifier la respiration d'une personne inconsciente ?",
+            question: "Que faut-il faire en cas de fracture ouverte ?",
             answers: {
-                a: "Écouter la respiration",
-                b: "Mettre un doigt sous son nez",
-                c: "Observer si la poitrine se soulève"
+                a: " Immobiliser la fracture sans toucher la plaie",
+                b: " Nettoyer la plaie avec de l'alcool",
+                c: " Essayer de remettre l'os en place"
             },
-            correctAnswer: "c"
+            correctAnswer: "a"
         },
         {
             question: "Que faire si vous êtes témoin d'une crise d'épilepsie ?",

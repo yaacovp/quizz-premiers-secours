@@ -62,6 +62,7 @@ button:hover {
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
+    font-size: 18px; /* Increased font size for better readability */
 }
 
 input[type="radio"] {
@@ -141,7 +142,8 @@ input[type="radio"] {
     }
 
     .answers label {
-        font-size: 14px;
+        font-size: 16px; /* Maintain readability on smaller screens */
+        margin-bottom: 15px; /* Increase spacing for touch screens */
     }
 
     #results {
