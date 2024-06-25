@@ -7,7 +7,6 @@ body {
     height: 100vh;
     margin: 0;
     overflow-y: auto;
-    padding: 10px; /* Added padding for small screens */
 }
 
 .quiz-container {
@@ -25,7 +24,6 @@ body {
 h1 {
     margin-bottom: 20px;
     color: #333;
-    font-size: 24px; /* Adjusted for better readability on small screens */
 }
 
 button {
@@ -37,8 +35,6 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    width: 100%; /* Full width for buttons on small screens */
-    max-width: 300px; /* Limit the width for better appearance */
 }
 
 button:hover {
@@ -59,7 +55,6 @@ button:hover {
 
 .answers {
     margin-bottom: 20px;
-    text-align: left; /* Align answers to the left for better readability */
 }
 
 .answers label {
@@ -156,33 +151,4 @@ input[type="radio"] {
     text-align: center;
     line-height: 20px;
     margin-left: 5px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    .quiz-container {
-        padding: 15px;
-    }
-    
-    h1 {
-        font-size: 20px;
-    }
-    
-    .question {
-        font-size: 18px;
-    }
-    
-    .answers label {
-        font-size: 16px;
-    }
-    
-    button {
-        font-size: 14px;
-        padding: 10px;
-    }
-    
-    .tooltip .tooltip-text {
-        width: 150px;
-        margin-left: -75px;
-    }
 }
