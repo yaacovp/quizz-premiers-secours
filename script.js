@@ -353,10 +353,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 const answerElement = answerContainer.querySelector(`input[value=${letter}]`).parentNode;
                 if (letter === currentQuestion.correctAnswer) {
                     answerElement.style.color = 'green';
-                    const tooltip = document.createElement('span');
-                    tooltip.classList.add('tooltip', 'show-tooltip');
-                    tooltip.innerHTML = `<span class="tooltip-icon">?</span><span class="tooltip-text">${currentQuestion.explanation}</span>`;
-                    answerElement.appendChild(tooltip);
+                    // Vérifier si le tooltip existe déjà
+                    if (!answerElement.querySelector('.tooltip')) {
+                        const tooltip = document.createElement('span');
+                        tooltip.classList.add('tooltip', 'show-tooltip');
+                        tooltip.innerHTML = `<span class="tooltip-icon">?</span><span class="tooltip-text">${currentQuestion.explanation}</span>`;
+                        answerElement.appendChild(tooltip);
+                    }
                 } else {
                     answerElement.style.color = 'red';
                 }
