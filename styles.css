@@ -57,6 +57,7 @@ button:hover {
     font-size: 20px;
     color: #555;
     position: relative;
+    font-weight: bold; /* Ajout pour mettre en gras les questions */
 }
 
 .answers {
@@ -73,7 +74,7 @@ button:hover {
 
 input[type="radio"] {
     transform: scale(1); /* Agrandir les boutons radio */
-    margin-right: 15px; /* Ajuster l'espace entre le bouton radio et le texte */
+    margin-right: 5px; /* Ajuster l'espace entre le bouton radio et le texte */
 }
 
 .indicator {
@@ -172,7 +173,7 @@ input[type="radio"] {
     }
     
     .question {
-        font-size: 18px;
+        font-size: 17px;
     }
     
     .answers label {
