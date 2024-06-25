@@ -175,11 +175,11 @@ input[type="radio"] {
     }
     
     .answers label {
-        font-size: 16px;
+        font-size: 25px;
     }
     
     button {
-        font-size: 14px;
+        font-size: 20px;
         padding: 10px;
     }
     
