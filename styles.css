@@ -72,7 +72,8 @@ button:hover {
 }
 
 input[type="radio"] {
-    margin-right: 10px;
+    transform: scale(1); /* Agrandir les boutons radio */
+    margin-right: 15px; /* Ajuster l'espace entre le bouton radio et le texte */
 }
 
 .indicator {
@@ -175,7 +176,7 @@ input[type="radio"] {
     }
     
     .answers label {
-        font-size: 25px;
+        font-size: 18px;
     }
     
     button {
